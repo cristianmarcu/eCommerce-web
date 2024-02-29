@@ -70,6 +70,7 @@ export function* signInWithEmail({
       yield* call(getSnapshotFromUserAuth, user);
     }
   } catch (error) {
+    alert("User sign in failed.");
     yield* put(signInFailed(error as Error));
   }
 }
@@ -99,6 +100,7 @@ export function* signUp({
       yield* put(signUpSuccess(user, { displayName }));
     }
   } catch (error) {
+    alert("Cannot create user, email already in use");
     yield* put(signUpFailed(error as Error));
   }
 }
