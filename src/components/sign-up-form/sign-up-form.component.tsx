@@ -26,8 +26,13 @@ const SignUpForm = () => {
   const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
+    if (password.length < 6) {
+      alert("Password must be at least 6 characters long");
+      return;
+    }
+
     if (password !== confirmPassword) {
-      alert("passwords do not match");
+      alert("Passwords do not match");
       return;
     }
 

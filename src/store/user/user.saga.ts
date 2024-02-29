@@ -70,7 +70,7 @@ export function* signInWithEmail({
       yield* call(getSnapshotFromUserAuth, user);
     }
   } catch (error) {
-    alert("User sign in failed.");
+    alert("User sign in failed");
     yield* put(signInFailed(error as Error));
   }
 }

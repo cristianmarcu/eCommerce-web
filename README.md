@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# eCommerce Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installation and Usage
 
-## Available Scripts
+To install and use the application, follow the steps below:
 
-In the project directory, you can run:
+1. Clone this repository to your computer using the following command:
 
-### `npm start`
+   ```bash
+   git clone https://github.com/cristianmarcu/eCommerce-web.git
+   ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. Navigate to the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   ```bash
+   cd project-directory
+   ```
 
-### `npm test`
+3. Install dependencies using npm:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run build`
+4. Once all dependencies are installed, you can start the application using the command:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm start
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   This command will start a local development server and open the application in your browser at [http://localhost:3000](http://localhost:3000).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Online Access
 
-### `npm run eject`
+If you want to access the application online without installing it locally, you can find it at the following link:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[Link to the application](https://verdant-moonbeam-60394b.netlify.app/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Description
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This React application provides a comprehensive experience for both authenticated and non-authenticated users. Regardless of authentication status, all users can access an interactive marketplace where they can explore and interact with various products. The project follows solid principles of clean and efficient architecture, highlighting intelligent state management and an attractive and user-friendly interface.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Authentication
 
-## Learn More
+The application integrates Firebase authentication services, allowing users to securely sign up, log in, and log out, regardless of their authentication preferences.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Marketplace
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The marketplace allows all users, whether authenticated or not, to explore the products available on the platform. Additionally, all users have interaction options, such as adding products to the cart or viewing product details.
 
-### Code Splitting
+### State Management
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+By using an efficient state management solution like Redux or Redux-Saga, the application ensures efficient data management and a smooth user experience.
 
-### Analyzing the Bundle Size
+### Clean Architecture
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The project is designed with attention to detail and follows the principles of clean architecture, with a clear separation of concerns between presentation, domain, and data layers. As a result, the codebase is modular, easy to understand, and maintainable.
 
-### Making a Progressive Web App
+### Firebase Integration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The integration of Firebase services for authentication and data storage adds an extra level of security and efficiency to the application.
 
-### Advanced Configuration
+### User Interface (UI)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+The user interface is carefully designed, offering an attractive visual experience and easy navigation. The design is responsive and adapts to different devices and screen sizes.
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Cristian Marcu
